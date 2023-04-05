@@ -1,0 +1,22 @@
+{
+  "name": "MyExt",
+  "version": "2.2",
+  "manifest_version": 3,
+  "icons": {
+    "16": "/src/images/login.png",
+    "48": "/src/images/login.png",
+    "128": "/src/images/login.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "./src/background.js"
+  },
+  "action": {
+    "default_title": "MyExt",
+    "default_icon": "/src/images/login.png",
+    "default_popup": "/build/index.html"
+  }
+}

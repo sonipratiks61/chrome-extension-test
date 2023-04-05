@@ -1,0 +1,61 @@
+#secretKey {
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  background-color: black;
+  color: antiquewhite;
+}
+
+.loginTitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+  color: antiquewhite;
+}
+
+.data_form {
+  width: 400px;
+  padding: 10px 50px 10px 50px;
+}
+
+.check_button_div {
+  display: flex;
+  justify-content: end;
+}
+
+.landing_page {
+  visibility: visible;
+}
+
+.loading_page {
+  visibility: hidden;
+}
+
+.userTitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+  color: antiquewhite;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.logout_button {
+  display: flex;
+  justify-content: end;
+}
